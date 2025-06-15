@@ -18,20 +18,31 @@
             margin: 20px 0;
         }
         .title-main {
-            font-size: 3em; /* Taille plus grande pour "Quartz" */
-            color: #bbb; /* Gris un peu plus sombre */
-            display: block; /* Assure que chaque partie reste sur sa propre ligne */
+            font-size: 3em;
+            color: #bbb;
+            display: block;
+        }
+        .title-mid {
+            font-size: 2em;
+            color: #ccc;
+            display: block;
+            margin-top: -0.2em;
         }
         .title-sub {
-            font-size: 1.5em; /* Taille plus petite pour la sous-ligne */
-            color: #ccc; /* Gris plus clair */
-            white-space: nowrap;       /* Empêche le retour à la ligne */
-            overflow: hidden;          /* Coupe si trop long */
-            text-overflow: ellipsis;   /* Ajoute "..." si déborde */
+            font-size: 1.2em;
+            color: #ddd;
+            display: block;
+            margin-top: -0.1em;
         }
         @media (max-width: 400px) {
+            .title-main {
+                font-size: 2em;
+            }
+            .title-mid {
+                font-size: 1.5em;
+            }
             .title-sub {
-                font-size: 1em; /* Réduit la taille sur petits écrans */
+                font-size: 1em;
             }
         }
         img {
@@ -69,7 +80,8 @@
 <body>
     <h1>
         <span class="title-main">Quartz</span><br />
-        <span class="title-sub">le Grand Saut du rock bordelais</span>
+        <span class="title-mid">Le Grand Saut</span><br />
+        <span class="title-sub">du rock bordelais</span>
     </h1>
 
     <div class="links-container">
