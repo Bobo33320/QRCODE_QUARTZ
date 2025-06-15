@@ -13,9 +13,18 @@
             padding: 20px;
             line-height: 1.6;
         }
-        h1, h2 {
-            color: #ccc; /* Gris au lieu de rouge */
+        h1 {
             text-align: center;
+            margin: 20px 0;
+        }
+        .title-main {
+            font-size: 3em; /* Taille plus grande pour "Quartz" */
+            color: #bbb; /* Gris un peu plus sombre */
+            display: block; /* Assure que chaque partie reste sur sa propre ligne */
+        }
+        .title-sub {
+            font-size: 1.5em; /* Taille plus petite pour la sous-ligne */
+            color: #ccc; /* Gris plus clair */
         }
         img {
             display: block;
@@ -25,19 +34,19 @@
         }
         .links-container {
             display: flex;
-            justify-content: center; /* Centre les liens horizontalement */
-            flex-wrap: wrap; /* Permet de passer à la ligne si nécessaire */
-            gap: 15px; /* Espacement entre les liens */
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 15px;
             margin: 20px 0;
         }
         .links-container a {
             color: #ff3300;
             text-decoration: none;
             font-weight: bold;
-            font-size: 1.2em; /* Taille ajustée pour les petits écrans */
-            flex: 1; /* Permet aux liens de s'adapter en taille */
-            text-align: center; /* Centre le texte dans chaque lien */
-            max-width: 200px; /* Limite la largeur pour éviter qu'ils soient trop étendus */
+            font-size: 1.2em;
+            flex: 1;
+            text-align: center;
+            max-width: 200px;
         }
         .links-container a:hover {
             text-decoration: underline;
@@ -50,7 +59,10 @@
     </style>
 </head>
 <body>
-    <h1>Quartz, le Grand Saut du rock bordelais</h1>
+    <h1>
+        <span class="title-main">Quartz</span><br>
+        <span class="title-sub">le Grand Saut du rock bordelais</span>
+    </h1>
 
     <img src="WhatsApp%20Image%202025-05-20%20at%2016.38.43.jpeg">
 
@@ -66,7 +78,7 @@
 
     <p>Composé d’Éric (chant), Samir (batterie), Boris et Will (guitares), Olivier (basse) et Droub (chœurs), Quartz forge son identité entre tension brute et mélodies. Forts de parcours musicaux variés — jazz, rock, pop, métal et même musique baroque — les musiciens créent une synergie unique qui nourrit l’originalité de leur son.</p>
 
-    <p>Leur premier EP « Le Grand Saut », sorti en juin 2025 sur le label DistroKid, a été enregistré au Château Lagrave et arrangé et mixé par Pierre Guillot.</p>
+    <p>Leur premier EP « Le Grand Saut », à paraître en juin 2025 sur le label DistroKid, a été enregistré au Château Lagrave et arrangé et mixé par Pierre Guillot.</p>
 
     <p>Ce premier opus de six titres, en français et en anglais, révèle toute l’intensité du groupe : du single éponyme « Le Grand Saut », brûlot rock à l’efficacité implacable, à trois reprises inattendues — « Ne me quitte pas » de Brel et "Aucun Express" d'Alain Bashung, revisitées dans une veine sombre à la Noir Désir, et « Walking on the Moon » de The Police, détournée avec une énergie rock audacieuse.</p>
 
