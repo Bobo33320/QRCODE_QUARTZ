@@ -45,7 +45,7 @@
                 font-size: 1em;
             }
         }
-        img {
+img {
             display: block;
             margin: 0 auto;
             max-width: 100%;
@@ -55,20 +55,14 @@
             display: flex;
             justify-content: center;
             flex-wrap: wrap;
+            align-items: center; /* Centre les logos verticalement */
             gap: 15px;
             margin: 20px 0;
         }
-        .links-container a {
-            color: #ff3300;
-            text-decoration: none;
-            font-weight: bold;
-            font-size: 1.2em;
-            flex: 1;
-            text-align: center;
-            max-width: 200px;
-        }
-        .links-container a:hover {
-            text-decoration: underline;
+        .links-container a img {
+            max-width: 50px; /* Limite la taille des logos */
+            height: auto;
+            display: block;
         }
         p {
             text-align: justify;
