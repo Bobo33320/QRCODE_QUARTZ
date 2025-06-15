@@ -14,7 +14,7 @@
             line-height: 1.6;
         }
         h1, h2 {
-            color: #ff3300;
+            color: #ccc; /* Gris au lieu de rouge */
             text-align: center;
         }
         img {
@@ -22,18 +22,22 @@
             margin: 0 auto;
             max-width: 100%;
             height: auto;
-            border: 4px solid #ff3300;
         }
         .links-container {
-            text-align: center;
+            display: flex;
+            justify-content: center; /* Centre les liens horizontalement */
+            flex-wrap: wrap; /* Permet de passer à la ligne si nécessaire */
+            gap: 15px; /* Espacement entre les liens */
             margin: 20px 0;
         }
         .links-container a {
             color: #ff3300;
             text-decoration: none;
             font-weight: bold;
-            font-size: 2em; /* Police deux fois plus grosse */
-            margin: 0 15px;
+            font-size: 1.2em; /* Taille ajustée pour les petits écrans */
+            flex: 1; /* Permet aux liens de s'adapter en taille */
+            text-align: center; /* Centre le texte dans chaque lien */
+            max-width: 200px; /* Limite la largeur pour éviter qu'ils soient trop étendus */
         }
         .links-container a:hover {
             text-decoration: underline;
@@ -62,7 +66,7 @@
 
     <p>Composé d’Éric (chant), Samir (batterie), Boris et Will (guitares), Olivier (basse) et Droub (chœurs), Quartz forge son identité entre tension brute et mélodies. Forts de parcours musicaux variés — jazz, rock, pop, métal et même musique baroque — les musiciens créent une synergie unique qui nourrit l’originalité de leur son.</p>
 
-    <p>Leur premier EP « Le Grand Saut », à paraître en juin 2025 sur le label DistroKid, a été enregistré au Château Lagrave et arrangé et mixé par Pierre Guillot.</p>
+    <p>Leur premier EP « Le Grand Saut »,sorti en juin 2025 sur le label DistroKid, a été enregistré au Château Lagrave et arrangé et mixé par Pierre Guillot.</p>
 
     <p>Ce premier opus de six titres, en français et en anglais, révèle toute l’intensité du groupe : du single éponyme « Le Grand Saut », brûlot rock à l’efficacité implacable, à trois reprises inattendues — « Ne me quitte pas » de Brel et "Aucun Express" d'Alain Bashung, revisitées dans une veine sombre à la Noir Désir, et « Walking on the Moon » de The Police, détournée avec une énergie rock audacieuse.</p>
 
